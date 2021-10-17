@@ -1,176 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
     <style>
-        .fa {
-            padding: 10px;
-            font-size: 20px;
-            width: 20px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-            border-radius: 50%;
-            
-        }
+      .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
 
-        .fa:hover {
-            opacity: 0.7;
-            transform:scale(1.2);
-        }
-        .fa-facebook {
-            color: #3B5998;
-            background: white;
-            box-shadow: 5px 5px 10px rgb(9, 36, 37);
-        }
-        .fa-twitter {
-            color: #55ACEE;
-            background: white;
-            box-shadow: 5px 5px 10px rgb(9, 36, 37);
-        }
-        .fa-linkedin {
-            color: #007bb5;
-            background: white;
-            box-shadow: 5px 5px 10px rgb(9, 36, 37);
-        }
+      .fa:hover {
+        opacity: 0.7;
+        transform: scale(1.2);
+      }
+      .fa-facebook {
+        color: #3b5998;
+        background: white;
+        box-shadow: 5px 5px 10px rgb(9, 36, 37);
+      }
+      .fa-twitter {
+        color: #55acee;
+        background: white;
+        box-shadow: 5px 5px 10px rgb(9, 36, 37);
+      }
+      .fa-linkedin {
+        color: #007bb5;
+        background: white;
+        box-shadow: 5px 5px 10px rgb(9, 36, 37);
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header-nav" id="head-nav">
-        <div class="nav-container">
-            <div class="mario">
-                <!--  -->
-                <span>Super Mario</span>
-            </div>
-            <div class="list-container" id="nav-list">
-                <ul id="nav-btn">
-                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-                    <li class="item"><a href="#" id="home-item"> Home </a></li>
-                    <li class="item"><a href="#" id="login-item"> Login </a></li>
-                    <li class="item"><a href="#" id="register-item"> Register </a></li>
-                    <li class="item" style="margin-right: 50px;"><a href="#" id="about-item"> About </a></li>
-                </ul>
-            </div>
+      <div class="nav-container">
+        <div class="mario">
+          <!--  -->
+          <span>Super Mario</span>
         </div>
-        <button class="humburger" id="clicked" onclick="showFunction()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </button>
+        <div class="list-container" id="nav-list">
+          <ul id="nav-btn">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            <li class="item">
+              <a href="../home page/index.html" id="home-item"> Home </a>
+            </li>
+            <li class="item"><a href="#" id="login-item"> Login </a></li>
+            <li class="item"><a href="#" id="register-item"> Register </a></li>
+            <li class="item" style="margin-right: 50px">
+              <a href="#" id="about-item"> About </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="humburger" id="clicked" onclick="showFunction()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </button>
     </div>
     <div class="image-container">
-        <div class="background-image">
-            <img src="image/slidemario1.jpg" alt="background mario">
-        </div>
-        <!-- <div class="download-button">
+      <div class="background-image">
+        <img src="image/slidemario1.jpg" alt="background mario" />
+      </div>
+      <!-- <div class="download-button">
             <button>
                 <span>Download now</span>
             </button>
         </div> -->
-
     </div>
     <div class="main-content">
-        <div class="column-1">
-            <div class="supermario-column">
-                <img src="image/supermariobros.png" alt="" width="580" height="380">
-            </div>
-            <div class="about-supermario">
-                <span class="title-supermario">Super Mario Bros</span>
-                <div class="paragraph">
-                    <p><span class="start-about" style="margin-left: 50px;">is a 1985 platform video game</span>
-                        internally developed by Nintendo EAD
-                        and published
-                        by Nintendo as a pseudo-sequel to the 1983 game Mario Bros. It was originally released in Japan
-                        for
-                        the Family Computer on September 13, 1985, and later for the Nintendo Entertainment System in
-                        North
-                        America in 1985, Europe on May 15, 1987 and Australia in 1987. It is the first of the Super
-                        Mario
-                        series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a
-                        second
-                        player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to
-                        rescue
-                        Princess Toadstool from the antagonist Bowser.
-                        <!-- <span class="start-about">The game has been highly influential,</span> popularizing the side-scrolling genre. In 2005, IGN's poll
+      <div class="column-1">
+        <div class="supermario-column">
+          <img src="image/supermariobros.png" alt="" width="580" height="380" />
+        </div>
+        <div class="about-supermario">
+          <span class="title-supermario">Super Mario Bros</span>
+          <div class="paragraph">
+            <p>
+              <span class="start-about" style="margin-left: 50px"
+                >is a 1985 platform video game</span
+              >
+              internally developed by Nintendo EAD and published by Nintendo as
+              a pseudo-sequel to the 1983 game Mario Bros. It was originally
+              released in Japan for the Family Computer on September 13, 1985,
+              and later for the Nintendo Entertainment System in North America
+              in 1985, Europe on May 15, 1987 and Australia in 1987. It is the
+              first of the Super Mario series of games. In Super Mario Bros.,
+              the player controls Mario and in a two-player game, a second
+              player controls Mario's brother Luigi as he travels through the
+              Mushroom Kingdom in order to rescue Princess Toadstool from the
+              antagonist Bowser.
+              <!-- <span class="start-about">The game has been highly influential,</span> popularizing the side-scrolling genre. In 2005, IGN's poll
                             named it as The Greatest Game Of All Time. The game also sold enormously well, and was the
                             best-selling game of all time for approximately three decades, until Wii Sports took that title. The
                             commercial success of Super Mario Bros. has caused it to be ported to almost every one of Nintendo's
                             major gaming consoles. Nintendo released special red variants of the Wii and Nintendo DSi XL
                             consoles in re-packaged, Mario-themed, limited edition bundles in late 2010 as part of the 25th
                             anniversary of the game's release. -->
-                    </p>
-                </div>
-            </div>
-
+            </p>
+          </div>
         </div>
-        <div class="row-2">
-            <div class="column">
-                <div class="image-container">
-                    <iframe width="350" height="230" src="https://www.youtube.com/embed/QlniEA5o2Kw" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <hr style="width:300px; margin: 0 auto;">
-                <div class="about">
-                    <span><b>Name:</b> Super Mario 3D Land</span>
-                </div>
-            </div>
-            <div class="column">
-                <div class="image-container">
-                    <iframe width="350" height="230" src="https://www.youtube.com/embed/wGQHQc_3ycE" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                <hr style="width:300px; margin: 0 auto;">
-                <div class="about">
-                    <span><b>Name:</b> Super Mario Odyssey</span>
-                </div>
-            </div>
-            <div class="column">
-                <div class="image-container">
-                    <iframe width="350" height="230" src="https://www.youtube.com/embed/A0lyeX0CAU0" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </div>
-                <hr style="width:300px; margin: 0 auto;">
-                <div class="about">
-
-                    <span><b>Name:</b> Super Mario Run</span>
-                </div>
-            </div>
+      </div>
+      <div class="row-2">
+        <div class="column">
+          <div class="image-container">
+            <iframe
+              width="350"
+              height="230"
+              src="https://www.youtube.com/embed/QlniEA5o2Kw"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <hr style="width: 300px; margin: 0 auto" />
+          <div class="about">
+            <span><b>Name:</b> Super Mario 3D Land</span>
+          </div>
         </div>
+        <div class="column">
+          <div class="image-container">
+            <iframe
+              width="350"
+              height="230"
+              src="https://www.youtube.com/embed/wGQHQc_3ycE"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <hr style="width: 300px; margin: 0 auto" />
+          <div class="about">
+            <span><b>Name:</b> Super Mario Odyssey</span>
+          </div>
+        </div>
+        <div class="column">
+          <div class="image-container">
+            <iframe
+              width="350"
+              height="230"
+              src="https://www.youtube.com/embed/A0lyeX0CAU0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <hr style="width: 300px; margin: 0 auto" />
+          <div class="about">
+            <span><b>Name:</b> Super Mario Run</span>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footer-container">
-        <div class="footer-content">
-            <div class="left-content">
-                <div class="logo-image">
-                    <img src="image/logo.png" alt="margio logo" width="120" height="100">
-                    <span>Super Mario</span>
-                </div>
-                <div class="copy-right">
-    
-                </div>
-            </div>
-            <div class="social-media">
-                <div class="social-container">
-                    <div class="social" style="margin-bottom: 10px">
-                        <span>Social Media</span>
-                    </div>
-                    <div class="site"><a href="#" class="fa fa-facebook"></a></div>
-                    <div class="site"><a href="#" class="fa fa-twitter"></a></div>
-                    <div class="site"><a href="#" class="fa fa-linkedin"></a></div>
-                </div>
-            </div>
+      <div class="footer-content">
+        <div class="left-content">
+          <div class="logo-image">
+            <img
+              src="image/logo.png"
+              alt="margio logo"
+              width="120"
+              height="100"
+            />
+            <span>Super Mario</span>
+          </div>
+          <div class="copy-right"></div>
         </div>
+        <div class="social-media">
+          <div class="social-container">
+            <div class="social" style="margin-bottom: 10px">
+              <span>Social Media</span>
+            </div>
+            <div class="site"><a href="#" class="fa fa-facebook"></a></div>
+            <div class="site"><a href="#" class="fa fa-twitter"></a></div>
+            <div class="site"><a href="#" class="fa fa-linkedin"></a></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
-</body>
-
+  </body>
 </html>
